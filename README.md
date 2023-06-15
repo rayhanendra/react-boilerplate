@@ -1,39 +1,43 @@
-# Material UI - Vite.js in Typescript example
+# React Vite Template
 
-## How to use
+React, Typescript, Vite, Material UI
+Prettier, Eslint, Husky, Lint-staged, Commitizen, Commitlint
 
-Download the example [or clone the repo](https://github.com/mui/material-ui):
+# Setup
 
-<!-- #default-branch-switch -->
+1. Install dependecies
+   ```bash
+   yarn
+   ```
+2. Install husky
+   ```bash
+   yarn husky install
+   ```
+3. Setup husky
+   ```bash
+   chmod ug+x .husky/*
+   ```
 
-```sh
-curl https://codeload.github.com/mui/material-ui/tar.gz/master | tar -xz --strip=2 material-ui-master/examples/material-vite-ts
-cd material-vite-ts
-```
+# Running / Building
 
-Install it and run:
+- Running development
+  ```bash
+  yarn dev
+  ```
 
-```sh
-npm install
-npm run dev
-```
+## Commit Usage
 
-or:
+Use `yarn commit` or `yarn cz` to use commitizen locally
 
-<!-- #default-branch-switch -->
+or you can install it globally and
 
-[![Edit on StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/mui/material-ui/tree/master/examples/material-vite-ts)
+Use `git cz` or just `cz` to commit using commitizen
 
-[![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/mui/material-ui/tree/master/examples/material-vite-ts)
+[Commitizen (commitizen-tools.github.io)](https://commitizen-tools.github.io/commitizen/)
 
-## The idea behind the example
+[How To Setup Husky, Lint Staged, And Commitizen On A Next.js Project — rizkicitra.dev](https://rizkicitra.dev/blog/how-to-setup-husky-nextjs)
 
-This example uses [Vite.js](https://github.com/vitejs/vite).
-It includes `@mui/material` with `@mui/icons-material` and their peer dependencies, including [Emotion](https://emotion.sh/docs/introduction), the default style engine in Material UI v5.
+# Tools
 
-## What's next?
-
-<!-- #default-branch-switch -->
-
-You now have a working example project.
-You can head back to the documentation, continuing browsing it from the [templates](https://mui.com/material-ui/getting-started/templates/) section.
+- **UI Library**
+  [MUI: The React component library you always wanted](https://mui.com/)
