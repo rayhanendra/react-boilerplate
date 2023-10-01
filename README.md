@@ -1,6 +1,6 @@
 # Material UI - Next.js App Router example in TypeScript
 
-This is a [Next.js](https://nextjs.org/) App Router project bootstrapped using [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with Material UI installed.
+This is a [Next.js](https://nextjs.org/) App Router project bootstrapped using [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [Material UI](https://mui.com/) and [TypeScript](https://www.typescriptlang.org/).
 
 This example uses [`next/font/google`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts#google-fonts) to automatically optimize and load Roboto, a custom Google Font.
 
