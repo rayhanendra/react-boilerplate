@@ -1,19 +1,26 @@
+'use client';
+
 import * as React from 'react';
-import Box from '@mui/material/Box';
-import Alert from '@mui/material/Alert';
-import AlertTitle from '@mui/material/AlertTitle';
+import Alert from '@/components/atoms/Alert';
+import TypeCard from '@/components/molecules/TypeCard';
+import Dashboard from '@/components/organisms/Dashboard';
+import styled from '@emotion/styled';
+
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+`;
 
 export default function HomePage() {
   return (
-    <Box
-      sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
-    >
-      <div>
-        <Alert severity='info' sx={{ mt: 2, mb: 5 }}>
-          <AlertTitle>Hello 👋</AlertTitle>
-          This app uses the Next.js App Router and Material UI v5.
-        </Alert>
-      </div>
-    </Box>
+    <Container>
+      <Alert
+        title='Hello 👋'
+        content='This app uses the Next.js App Router and Emotion.'
+      />
+      <TypeCard title='Molecule' content='This is a molecule component' />
+      <Dashboard />
+    </Container>
   );
 }
